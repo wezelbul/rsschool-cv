@@ -28,6 +28,37 @@ science fiction, puzzles. Open to relocate.
 - A1QA Test automation Training Center - Test Developer
 - RS School - JS / Front-end. Stage 0 (RU)
 - [Coursera - Kotlin for Java Developers](https://coursera.org/share/27089f081c94b0c105ae5b9dedafcb68)
+  
+## Code example
+
+```java
+public class DigPow {
+    public static long digPow(int n, int p) {
+        int sum = 0;
+        int pow = p;
+        for (char ch : String.valueOf(n).toCharArray()) {
+            sum += Math.pow(Character.getNumericValue(ch), pow);
+            pow += 1;
+        }
+        if (sum % n == 0) {
+            return (long) sum / n;
+        } else {
+            return -1;
+        }
+    }
+}
+```
+
+## Projects
+
+- [Kanban board (backend, Java)](https://github.com/wezelbul/java-kanban)
+- [Service for movie lovers (backend, Java)](https://github.com/wezelbul/java-filmorate)
+
+## Languages
+
+- Russian - native
+- English - B1
+
 
 ## Skills:
 
@@ -72,34 +103,3 @@ science fiction, puzzles. Open to relocate.
     <a href="https://insomnia.rest" target="_blank" rel="noreferrer"> 
       <img src="https://raw.githubusercontent.com/wezelbul/wezelbul/main/icons/tools/16_Insomnia.svg" alt="Insomnia" title="Insomnia" width="40" height="40"/> </a>
   </p>
-
-
-## Code example
-
-```java
-public class DigPow {
-    public static long digPow(int n, int p) {
-        int sum = 0;
-        int pow = p;
-        for (char ch : String.valueOf(n).toCharArray()) {
-            sum += Math.pow(Character.getNumericValue(ch), pow);
-            pow += 1;
-        }
-        if (sum % n == 0) {
-            return (long) sum / n;
-        } else {
-            return -1;
-        }
-    }
-}
-```
-
-## Projects
-
-- [Kanban board (backend, Java)](https://github.com/wezelbul/java-kanban)
-- [Service for movie lovers (backend, Java)](https://github.com/wezelbul/java-filmorate)
-
-## Languages
-
-- Russian - native
-- English - B1
