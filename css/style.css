@@ -1,0 +1,149 @@
+body {
+    background-color: #999;
+    color: #999;
+}
+
+.container-center {
+    margin: 20px auto;
+    width: 1024px;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+
+}
+
+.soft-border {
+    border-radius: 100px;
+
+}
+
+.info-row {
+    background-color: #333;
+    display: flex;
+}
+
+.header-column {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    width: 30%;
+}
+
+.content-column {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #414141;
+    flex: 1;
+}
+
+.round-image {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.author {
+    display: block;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: darkorange;
+}
+
+.head-box {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.icons {
+    width: 25px;
+    padding-right: 20px;
+    font: inherit;
+}
+
+.contacts {
+    display: inline;
+}
+
+.list-info {
+    display: flex;
+    align-items: center;
+    margin: 16px 0 16px;
+}
+
+.content-info a {
+    color: #999;
+}
+
+.none-list-item {
+    padding-left: 0;
+    list-style: none;
+}
+
+.frame {
+    background-color: darkorange;
+    align-content: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin: 10px 11px;
+}
+
+.nav-link a {
+    color: #414141;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    padding: 10px;
+    color: #333;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rs-school-logo {
+    width: 100px;
+}
+
+.github-logo {
+    width: 50px;
+}
+
+.skill-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
