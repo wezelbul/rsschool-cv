@@ -73,6 +73,7 @@ science fiction, puzzles. Open to relocate.
       <img src="https://raw.githubusercontent.com/wezelbul/wezelbul/main/icons/tools/16_Insomnia.svg" alt="Insomnia" title="Insomnia" width="40" height="40"/> </a>
   </p>
 
+
 ## Code example
 
 ```java
@@ -92,6 +93,7 @@ public class DigPow {
     }
 }
 ```
+
 ## Projects
 
 - [Kanban board (backend, Java)](https://github.com/wezelbul/java-kanban)
